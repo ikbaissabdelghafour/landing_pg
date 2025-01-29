@@ -22,4 +22,5 @@ git commit -m "$COMMIT_MESSAGE"
 echo "Pushing changes..."
 git push
 
+
 echo "Done!"
