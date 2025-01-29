@@ -10,6 +10,7 @@ fi
 # Get the commit message from the first argument
 COMMIT_MESSAGE="$1"
 
+
 # Add all changes
 echo "Adding changes..."
 git add .
