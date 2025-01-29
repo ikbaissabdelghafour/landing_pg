@@ -7,6 +7,7 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
+
 # Get the commit message from the first argument
 COMMIT_MESSAGE="$1"
 
