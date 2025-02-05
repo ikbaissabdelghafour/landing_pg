@@ -3,7 +3,7 @@ name: Deploy to AwardSpace
 on:
   push:
     branches:
-      - main  # Change to 'master' if needed
+      - main  # Change this if you're using a different branch
 
 jobs:
   ftp-deploy:
@@ -13,10 +13,10 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.1.0  # Correct version (v4.1.0)
+        uses: SamKirkland/FTP-Deploy-Action@v4.1.0
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: "./"  # Change this if needed
-          server-dir: "/www/"  # AwardSpace's public directory
+          local-dir: "./"  # Path to the local files to deploy
+          server-dir: "/public_html/"  # Correct directory on AwardSpace
