@@ -19,4 +19,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: "./"  # Change this if needed
-          server-dir: "/home/www/ino.atwebpages.com/"  # AwardSpace's public directory
+          server-dir: "/home/www/"  # AwardSpace's public directory
