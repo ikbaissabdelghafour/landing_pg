@@ -15,7 +15,6 @@ class Database {
                 PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC, // Définit le mode de récupération par défaut
                 PDO::ATTR_EMULATE_PREPARES => false // Désactive l'émulation des requêtes préparées
             ]);
-            die("yes i do it");
         } catch (PDOException $e) {
             die("Erreur de connexion : ");
         }
