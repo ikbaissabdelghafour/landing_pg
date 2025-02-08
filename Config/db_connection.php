@@ -1,9 +1,9 @@
 <?php
 class Database {
-    private $host = "fdb1030.awardspace.net"; // Remplacez par votre hôte
+    private $host = "localhost"; // Remplacez par votre hôte
     private $dbname = "4585479_name"; // Remplacez par le nom de votre base de données
-    private $username = "4585479_name"; // Remplacez par votre nom d'utilisateur
-    private $password = "r58I#t-N9!^gB/Hp"; // Remplacez par votre mot de passe
+    private $username = "root"; // Remplacez par votre nom d'utilisateur
+    private $password = ""; // Remplacez par votre mot de passe
     private $pdo;
     private static $instance = null;
 
