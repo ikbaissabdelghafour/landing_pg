@@ -3,7 +3,7 @@ class Database {
     private $host = "sql210.byethost11.com"; // Remplacez par votre hôte
     private $dbname = "b11_38304081_cpa"; // Remplacez par le nom de votre base de données
     private $username = "b11_38304081"; // Remplacez par votre nom d'utilisateur
-    private $password = "Abdo.2004"; // Remplacez par votre mot de passe
+    private $password = ""; // Remplacez par votre mot de passe
     private $pdo;
     private static $instance = null;
 
