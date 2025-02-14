@@ -1,4 +1,4 @@
-name: Deploy to AwardSpace
+name: Deploy to byte.net
 
 on:
   push:
@@ -19,4 +19,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: "./"  # Path to the local files to deploy
-          server-dir: "/home/www/ino.atwebpages.com/"  # Correct directory on AwardSpace
+          server-dir: "/ino.my-style.in/htdocs/"  # Correct directory on AwardSpace
