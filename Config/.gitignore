@@ -1,1 +1,8 @@
 db_connection.php
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
+node_modules/
+vendor/
